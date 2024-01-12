@@ -238,4 +238,7 @@ nav ul li a {
     .banner-content {
         max-width: 100%;
     }
+    .team-img {
+        grid-template-columns:  2fr;
+    }
 }
