@@ -88,7 +88,6 @@ nav ul li a {
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
-    margin-bottom: 35px;
 }
 
 .banner-description {
@@ -104,6 +103,8 @@ nav ul li a {
 }
 
 /* responsive section  */
+
+/* mobile screen responsive */
 @media screen and (max-width: 576px) {
     .container {
         width: 100% !important;
@@ -120,7 +121,7 @@ nav ul li a {
     }
 
     .banner-content {
-        width: 100%;
+        max-width: 100%;
     }
 
     .banner {
@@ -135,5 +136,30 @@ nav ul li a {
     .banner-description {
         margin-bottom: 25px;
         padding: 0 5px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+/* medium screen responsive  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    nav ul li {
+        padding: 0 20px;
+    }
+    .banner-title {
+        margin: 50px 0px 30px 0px;
+    }
+    .banner-content {
+        max-width: 100%;
     }
 }
