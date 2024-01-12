@@ -14,8 +14,19 @@
     margin: 0 auto;
 }
 
-img{
+img {
     max-width: 100%;
+}
+
+.btn-primary {
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #FF900E;
 }
 
 section {
@@ -30,7 +41,7 @@ a {
 
 /* header section design here  */
 header {
-    padding: 100px 0;
+    padding: 50px 0;
     background: rgba(255, 144, 14, 0.10);
 }
 
@@ -63,11 +74,30 @@ nav ul li a {
 
 /* banner section design */
 
-.banner{
+.banner {
     padding-top: 100px;
     text-align: center;
 }
 
+.banner-content {
+    width: 870px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
 
+.banner-title {
+    margin: 0 100px;
+    color: #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
 
-
+.banner-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
