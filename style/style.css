@@ -2,36 +2,72 @@
 
 /* Global style of website  */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
 
-.container{
+.container {
     width: 1140px;
     margin: 0 auto;
 }
 
-section{
+img{
+    max-width: 100%;
+}
+
+section {
     padding: 80px 0;
 }
 
-li, a {
+li,
+a {
     list-style: none;
     text-decoration: none;
 }
 
 /* header section design here  */
-header{
-    height: 100px;
+header {
+    padding: 100px 0;
+    background: rgba(255, 144, 14, 0.10);
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.site-logo {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-left: 70px;
+}
+
+nav ul li a {
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* banner section design */
+
+.banner{
+    padding-top: 100px;
+    text-align: center;
+}
+
+
 
 
