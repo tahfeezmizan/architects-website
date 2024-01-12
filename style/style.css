@@ -163,3 +163,28 @@ nav ul li a {
         max-width: 100%;
     }
 }
+
+
+
+/* teams section design  */
+
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-img{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+
+
+
