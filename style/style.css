@@ -14,10 +14,6 @@
     margin: 0 auto;
 }
 
-img {
-    max-width: 100%;
-}
-
 .btn-primary {
     outline: none;
     border: none;
@@ -26,6 +22,7 @@ img {
     font-weight: 600;
     padding: 20px 25px;
     border-radius: 8px;
+    cursor: pointer;
     background: #FF900E;
 }
 
@@ -40,13 +37,13 @@ a {
 }
 
 /* header section design here  */
-header {
-    padding: 50px 0;
-    background: rgba(255, 144, 14, 0.10);
+#header {
+    background: #fff4e7;
 }
 
 nav {
     display: flex;
+    padding: 50px 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -75,8 +72,8 @@ nav ul li a {
 /* banner section design */
 
 .banner {
-    padding-top: 100px;
     text-align: center;
+    padding: 50px 0;
 }
 
 .banner-content {
@@ -100,4 +97,43 @@ nav ul li a {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* responsive section  */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul li {
+        padding: 0 13px;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner {
+        padding-top: 5px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+
+    .banner-description {
+        margin-bottom: 25px;
+        padding: 0 5px;
+    }
 }
