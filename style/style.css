@@ -203,6 +203,7 @@ nav ul li a {
 .sponspors-card{
     display: flex;
     align-items: center;
+    filter: grayscale(100%);
     justify-content: space-between;
 }
 
