@@ -29,7 +29,9 @@ section {
     cursor: pointer;
     background: #FF900E;
 }
-
+.btn-primary:hover {
+    background-color: #ef740a;
+}
 .global-title {
     font-size: 45px;
     font-weight: 700;
@@ -83,6 +85,10 @@ nav ul li a {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
+}
+nav ul li a:hover {
+    color: #FF900E;
+    transition: 0.3s ease;
 }
 
 
@@ -227,8 +233,16 @@ flex-shrink: 0;
 .sponspors-card {
     display: flex;
     align-items: center;
-    filter: grayscale(100%);
+    
     justify-content: space-between;
+}
+
+.sponspors-card img{
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+}
+.sponspors-card img:hover {
+    filter: grayscale(0%);
 }
 
 /* footer section design here  */
