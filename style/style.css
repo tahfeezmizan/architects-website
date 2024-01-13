@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -66,7 +67,7 @@ nav {
     justify-content: space-between;
 }
 
-.site-logo {
+.site-logo a {
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
