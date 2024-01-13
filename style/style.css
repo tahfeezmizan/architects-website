@@ -164,16 +164,17 @@ nav ul li a:hover {
 
 
 .feature-container{
-    display: flex;
+    display: grid;
+    gap: 110px;
+    grid-template-columns: repeat(2, 1fr);
 }
 /* .feature-content{
     width: 50%;
 } */
 
 .feature-img img{
-    width: 708px;
-height: 982px;
-flex-shrink: 0;
+    width: 540px !important;
+    height: auto;
 }
 
 
