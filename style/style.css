@@ -193,22 +193,34 @@ nav ul li a {
 
 /* Our Sponspors section design here  */
 
-.sponspors-content{
+.sponspors-content {
     text-align: center !important;
 }
 
-.sponspors-des{
+.sponspors-des {
     margin-bottom: 50px !important;
 }
-.sponspors-card{
+
+.sponspors-card {
     display: flex;
     align-items: center;
     filter: grayscale(100%);
     justify-content: space-between;
 }
 
+/* footer section design here  */
+.footer-content {
+    padding: 40px 0;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 80px;
 
+}
 
+.footer-des {
+    margin-bottom: 0 !important;
+}
 
 
 
@@ -286,7 +298,7 @@ nav ul li a {
     }
 
     nav,
-    .team-container{
+    .team-container {
         flex-direction: column;
         gap: 30px;
     }
@@ -306,7 +318,8 @@ nav ul li a {
     .facts-des {
         max-width: 60% !important;
     }
-    .facts-container{
+
+    .facts-container {
         padding: 50px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
