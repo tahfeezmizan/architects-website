@@ -162,6 +162,9 @@ nav ul li a {
    justify-content: space-around;
     margin-top: 100px;
 }
+.facts-des {
+    max-width: 50%;
+}
 .facts-container .facts-card {
     padding: 50px 40px;
     border-radius: 8px;
@@ -206,7 +209,8 @@ nav ul li a {
     }
 
     nav,
-    .team-container {
+    .team-container,
+    .facts-container {
         gap: 20px;
         flex-direction: column;
     }
@@ -247,6 +251,12 @@ nav ul li a {
     .team-content {
         padding-left: 30px;
     }
+    .some-facts-content {
+        padding: 0 10px;
+    }
+    .facts-des {
+        max-width: 100% !important;
+    }
 
 }
 
@@ -257,7 +267,8 @@ nav ul li a {
     }
 
     nav,
-    .team-container {
+    .team-container,
+    .facts-container {
         flex-direction: column;
         gap: 30px;
     }
@@ -273,5 +284,7 @@ nav ul li a {
     .banner-content {
         max-width: 100%;
     }
-
+    .facts-des {
+        max-width: 60% !important;
+    }
 }
