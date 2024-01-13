@@ -44,13 +44,13 @@ section {
     margin-bottom: 32px;
 }
 
-
-
 li,
 a {
     list-style: none;
     text-decoration: none;
 }
+
+
 
 /* header section design here  */
 #header {
@@ -85,6 +85,7 @@ nav ul li a {
     line-height: 26px;
 }
 
+
 /* banner section design */
 
 .banner {
@@ -107,7 +108,7 @@ nav ul li a {
     margin-bottom: 38px;
 }
 
-.banner img {
+.banner-img {
     width: 100%;
 }
 
@@ -151,6 +152,28 @@ nav ul li a {
     color: #131313;
     font-weight: 700;
 }
+
+/* features section design here  */
+
+
+.feature-container{
+    display: flex;
+}
+/* .feature-content{
+    width: 50%;
+} */
+
+.feature-img img{
+    width: 708px;
+height: 982px;
+flex-shrink: 0;
+}
+
+
+
+
+
+
 
 
 /* some facts section design here  */
@@ -219,6 +242,7 @@ nav ul li a {
 }
 
 .footer-des {
+    font-size: 20px !important;
     margin-bottom: 0 !important;
 }
 
@@ -269,9 +293,10 @@ nav ul li a {
         padding: 0 5px;
     }
 
-    img {
+    /* img {
         max-width: 100%;
-    }
+    } */
+
 
     .team-img {
         margin-bottom: 30px;
