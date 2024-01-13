@@ -191,6 +191,20 @@ nav ul li a {
 }
 
 
+/* Our Sponspors section design here  */
+
+.sponspors-content{
+    text-align: center !important;
+}
+
+.sponspors-des{
+    margin-bottom: 50px !important;
+}
+.sponspors-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
