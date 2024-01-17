@@ -39,7 +39,7 @@ section {
     color: #131313;
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 24px !important;
+    margin-bottom: 22px !important;
 }
 
 .global-description {
@@ -47,7 +47,7 @@ section {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
     padding-right: 1px;
 }
 
@@ -228,6 +228,9 @@ nav ul li a:hover {
     padding: 50px 40px;
     border-radius: 8px;
     border: 1px solid #FF900E;
+}
+.facts-card:last-child {
+    padding: 50px 45px;
 }
 
 .facts-card .fact-img {
