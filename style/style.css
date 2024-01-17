@@ -30,10 +30,13 @@ section {
     cursor: pointer;
     background: #FF900E;
 }
+
 .btn-primary:hover {
     background-color: #ef740a;
 }
+
 .global-title {
+    color: #131313;
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 24px !important;
@@ -45,6 +48,7 @@ section {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
+    padding-right: 1px;
 }
 
 li,
@@ -87,6 +91,7 @@ nav ul li a {
     font-weight: 500;
     line-height: 26px;
 }
+
 nav ul li a:hover {
     color: #FF900E;
     transition: 0.3s ease;
@@ -163,19 +168,40 @@ nav ul li a:hover {
 /* features section design here  */
 
 
-.feature-container{
+.feature-container {
     display: grid;
     gap: 110px;
     grid-template-columns: repeat(2, 1fr);
 }
-/* .feature-content{
-    width: 50%;
-} */
 
-.feature-img img{
+.features-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 22px;
+}
+
+.feature-card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+
+.feature-img img {
     width: 540px !important;
     height: auto;
 }
+
 
 
 
@@ -235,14 +261,15 @@ nav ul li a:hover {
 .sponspors-card {
     display: flex;
     align-items: center;
-    
+
     justify-content: space-between;
 }
 
-.sponspors-card img{
+.sponspors-card img {
     filter: grayscale(100%);
     transition: 0.3s ease-in-out;
 }
+
 .sponspors-card img:hover {
     filter: grayscale(0%);
 }
