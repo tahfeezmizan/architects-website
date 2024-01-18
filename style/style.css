@@ -170,17 +170,18 @@ nav ul li a:hover {
 
 .feature-container {
     display: grid;
-    gap: 110px;
+    gap: 70px;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .features-title {
     border-left: 5px solid #FF900E;
     padding-left: 22px;
+    padding-right: 10px;
 }
 
 .feature-card {
-    padding: 30px;
+    padding: 25px 30px;
     margin-bottom: 20px;
     border-radius: 8px;
     background: #FFF;
@@ -194,11 +195,15 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+.card-des {
+    margin-bottom: 0px;
+}
+
 
 
 
 .feature-img img {
-    width: 540px !important;
+    width: 556px !important;
     height: auto;
 }
 
