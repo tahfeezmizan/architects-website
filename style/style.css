@@ -170,7 +170,7 @@ nav ul li a:hover {
 
 .feature-container {
     display: grid;
-    gap: 70px;
+    gap: 40px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -188,6 +188,31 @@ nav ul li a:hover {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
+.ten-years-badges {
+    width: 342px;
+    height: 200px;
+    padding: 45px;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    background: #FF900E;
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+}
+
+.ten-years-badges h2 {
+    font-size: 65px;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+}
+
+.ten-years-badges p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 .card-title {
     color: #131313;
     font-size: 20px;
@@ -203,8 +228,9 @@ nav ul li a:hover {
 
 
 .feature-img img {
-    width: 556px !important;
-    height: auto;
+    width: 600px !important;
+    height: 91%;
+    margin-left: 60px;
 }
 
 
@@ -234,6 +260,7 @@ nav ul li a:hover {
     border-radius: 8px;
     border: 1px solid #FF900E;
 }
+
 .facts-card:last-child {
     padding: 50px 45px;
 }
