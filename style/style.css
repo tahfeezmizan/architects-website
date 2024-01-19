@@ -376,6 +376,7 @@ nav ul li a:hover {
     } */
 
 
+
     .team-img {
         margin-bottom: 30px;
     }
@@ -391,6 +392,22 @@ nav ul li a:hover {
     .facts-des {
         max-width: 100% !important;
     }
+
+    .feature-container {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .feature-img img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .ten-years-badges {
+        left: 95px;
+    }
+
 
 }
 
@@ -429,4 +446,21 @@ nav ul li a:hover {
         gap: 50px;
         margin-top: 0px;
     }
+
+    .feature-container {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .feature-img img {
+        max-width: 100%;
+        max-height: auto;
+    }
+    .ten-years-badges {
+        position: relative;
+        left: 95px;
+        bottom: 100px;
+    }
+    
+
 }
