@@ -234,13 +234,6 @@ nav ul li a:hover {
 }
 
 
-
-
-
-
-
-
-
 /* some facts section design here  */
 
 .facts-container {
@@ -326,14 +319,14 @@ nav ul li a:hover {
 
 
 
-
-
-
-
 /* responsive section  */
 
 /* mobile screen responsive */
 @media screen and (max-width: 576px) {
+    section {
+        overflow: hidden;
+    }
+
     .container {
         width: 100% !important;
         overflow: hidden;
@@ -410,7 +403,7 @@ nav ul li a:hover {
     }
 
     .ten-years-badges {
-        left: 95px;
+        left: 44px;
     }
 
     .sponspors-card {
@@ -424,14 +417,19 @@ nav ul li a:hover {
 
 /* medium screen responsive  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    section {
+        overflow: hidden;
+    }
+
     .container {
         width: 100%;
+        padding: 0 30px;
     }
 
     nav,
     .team-container {
         flex-direction: column;
-        gap: 30px;
+        gap: 40px;
     }
 
     nav ul li {
@@ -456,8 +454,8 @@ nav ul li a:hover {
     }
 
     .feature-img img {
-        max-width: 100%;
-        max-height: auto;
+        width: 100% !important;
+        margin: 0;
     }
 
     .ten-years-badges {
@@ -477,6 +475,5 @@ nav ul li a:hover {
         gap: 30px;
         grid-template-columns: repeat(2, 1fr);
     }
-
 
 }
