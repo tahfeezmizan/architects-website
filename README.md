@@ -5,6 +5,6 @@ This is a typical architect's website, a lot of effort has gone into creating th
 
 
 ## Live demo
-![photo](https://tahfeezmizan.github.io/architects-website/)
+![photo](https://drive.google.com/file/d/1YFFnREDXx5xg7sVgR3K5zx0QjX6b_HU_/view?usp=sharing)
 
 
